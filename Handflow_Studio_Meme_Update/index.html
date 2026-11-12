@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b16"><title>Handflow — AI Hand Tracking Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-icon">✳</span><span>handflow<small>AI STUDIO</small></span></a>
+      <div class="side-label">WORKSPACE</div><a class="nav active" href="#studio"><span>▦</span> Live Studio</a><a class="nav" href="#gestures"><span>⌘</span> Gesture library</a>
+      <div class="side-label lower">PREFERENCES</div><a class="nav" href="#settings"><span>⚙</span> Settings</a>
+      <div class="side-bottom"><div class="avatar">HF</div><div>Handflow Studio<small>Local workspace</small></div><span class="dots">•••</span></div>
+    </aside>
+    <main id="studio">
+      <header><div><div class="eyebrow"><span class="live-dot"></span> COMPUTER VISION / LIVE</div><h1>Hand Tracking Studio</h1><p class="sub">Your hands, translated into a live 3D experience.</p></div><div class="header-right"><span class="badge"><i></i> SYSTEM READY</span><button id="startButton" class="primary"><span>▶</span> Start camera</button></div></header>
+      <section class="stage-card">
+        <div class="stage-top"><div><b>LIVE PREVIEW</b><span class="muted"> · CAMERA INPUT</span></div><div class="stage-actions"><span class="fps"><i></i> <span id="fps">--</span> FPS</span><button class="icon-btn" id="fullscreenButton" title="Fullscreen">⛶</button></div></div>
+        <div class="stage" id="stage"><video id="camera" autoplay playsinline muted></video><canvas id="overlay"></canvas><div class="stage-placeholder" id="placeholder"><div class="camera-icon">◉</div><b>Your studio is ready</b><span>Start your camera to begin real-time hand tracking.</span><button id="stageStart" class="primary">Enable camera <span>→</span></button></div><div class="tracking-chip" id="trackingChip"><i></i><span>TRACKING</span></div><div class="stage-caption">HAND SKELETON <strong>ON</strong></div></div>
+        <div class="stage-bottom"><span><i class="tiny-green"></i> <span id="cameraStatus">Camera is off</span></span><span id="handCount">0 hands detected</span></div>
+      </section>
+      <section class="dashboard">
+        <article class="panel gestures" id="gestures"><div class="panel-heading"><div><h2>Gesture detection</h2><p>Recognized hand poses update in real time.</p></div><span class="toggle-wrap">ENABLED <label class="switch"><input type="checkbox" id="gestureToggle" checked><span></span></label></span></div><div class="gesture-grid" id="gestureGrid"><div class="gesture-tile"><span class="gesture-emoji">✋</span><span>Open hand</span><b>OPEN</b></div><div class="gesture-tile"><span class="gesture-emoji">✊</span><span>Fist</span><b>FIST</b></div><div class="gesture-tile"><span class="gesture-emoji">✌️</span><span>Peace</span><b>PEACE</b></div><div class="gesture-tile"><span class="gesture-emoji">☝️</span><span>Point</span><b>POINT</b></div><div class="gesture-tile"><span class="gesture-emoji">👍</span><span>Thumbs up</span><b>THUMB</b></div><div class="gesture-tile"><span class="gesture-emoji">🤏</span><span>Pinch / OK</span><b>PINCH</b></div></div></article>
+        <article class="panel reaction" id="settings"><div class="panel-heading"><div><h2>Meme reactions</h2><p>Show a matching image when a gesture is recognized.</p></div><label class="switch"><input type="checkbox" id="memeToggle" checked><span></span></label></div><div class="reaction-preview"><div class="preview-art">🖼️</div><div><b>Gesture memes</b><span>Local image library</span></div><span class="green-label">ACTIVE</span></div><div class="duration"><span>Display duration</span><b>0.5 sec</b></div><div class="progress"><i></i></div><div class="finger-list"><span>Finger tracking</span><div><i class="on"></i> Thumb <i class="on"></i> Index <i class="on"></i> Middle <i class="on"></i> Ring <i class="on"></i> Pinky</div></div></article>
+      </section>
+      <footer><span>HANDFLOW STUDIO <i>·</i> LOCAL PROCESSING</span><span>Camera video stays on your device</span></footer>
+    </main>
+  </div>
+  <div class="meme-overlay" id="memeOverlay" aria-hidden="true"><img id="memeImage" alt="Gesture meme"></div>
+  <div class="toast" id="toast"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="meme-api.js"></script>
+  <script src="app.js"></script>
+</body></html>

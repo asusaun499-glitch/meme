@@ -1,0 +1,154 @@
+{
+    "version":  1,
+    "durationMs":  500,
+    "categories":  {
+                       "fist":  [
+                                    "assets/05_success.png"
+                                ],
+                       "index":  [
+                                     "assets/03_roll_safe.png",
+                                     "assets/08_point.png"
+                                 ],
+                       "index_middle":  [
+                                            "assets/01_not_angry.png",
+                                            "assets/10_monkey_face.png"
+                                        ],
+                       "index_middle_pinky":  [
+                                                  "assets/01_not_angry.png",
+                                                  "assets/10_monkey_face.png"
+                                              ],
+                       "index_middle_ring":  [
+                                                 "assets/01_not_angry.png",
+                                                 "assets/10_monkey_face.png"
+                                             ],
+                       "index_middle_ring_pinky":  [
+                                                       "assets/01_not_angry.png",
+                                                       "assets/10_monkey_face.png"
+                                                   ],
+                       "index_pinky":  [
+                                           "assets/03_roll_safe.png",
+                                           "assets/08_point.png"
+                                       ],
+                       "index_ring":  [
+                                          "assets/03_roll_safe.png",
+                                          "assets/08_point.png"
+                                      ],
+                       "index_ring_pinky":  [
+                                                "assets/03_roll_safe.png",
+                                                "assets/08_point.png"
+                                            ],
+                       "middle":  [
+                                      "assets/01_not_angry.png",
+                                      "assets/10_monkey_face.png"
+                                  ],
+                       "middle_pinky":  [
+                                            "assets/01_not_angry.png",
+                                            "assets/10_monkey_face.png"
+                                        ],
+                       "middle_ring":  [
+                                           "assets/01_not_angry.png",
+                                           "assets/10_monkey_face.png"
+                                       ],
+                       "middle_ring_pinky":  [
+                                                 "assets/01_not_angry.png",
+                                                 "assets/10_monkey_face.png"
+                                             ],
+                       "ok":  [
+                                  "assets/06_drake.png",
+                                  "assets/02_coffee.png"
+                              ],
+                       "open":  [
+                                    "assets/07_wave.png",
+                                    "assets/04_clap.png"
+                                ],
+                       "peace":  [
+                                     "assets/06_drake.png",
+                                     "assets/04_clap.png"
+                                 ],
+                       "pinch":  [
+                                     "assets/02_coffee.png",
+                                     "assets/09_monkeys.png"
+                                 ],
+                       "pinky":  [
+                                     "assets/07_wave.png",
+                                     "assets/09_monkeys.png"
+                                 ],
+                       "point":  [
+                                     "assets/03_roll_safe.png",
+                                     "assets/08_point.png"
+                                 ],
+                       "ring":  [
+                                    "assets/04_clap.png",
+                                    "assets/09_monkeys.png"
+                                ],
+                       "ring_pinky":  [
+                                          "assets/07_wave.png",
+                                          "assets/04_clap.png"
+                                      ],
+                       "thumb":  [
+                                     "assets/06_drake.png",
+                                     "assets/05_success.png"
+                                 ],
+                       "thumb_index":  [
+                                           "assets/03_roll_safe.png",
+                                           "assets/08_point.png"
+                                       ],
+                       "thumb_index_middle":  [
+                                                  "assets/01_not_angry.png",
+                                                  "assets/10_monkey_face.png"
+                                              ],
+                       "thumb_index_middle_pinky":  [
+                                                        "assets/01_not_angry.png",
+                                                        "assets/10_monkey_face.png"
+                                                    ],
+                       "thumb_index_middle_ring":  [
+                                                       "assets/01_not_angry.png",
+                                                       "assets/10_monkey_face.png"
+                                                   ],
+                       "thumb_index_middle_ring_pinky":  [
+                                                             "assets/01_not_angry.png",
+                                                             "assets/10_monkey_face.png"
+                                                         ],
+                       "thumb_index_pinky":  [
+                                                 "assets/03_roll_safe.png",
+                                                 "assets/08_point.png"
+                                             ],
+                       "thumb_index_ring":  [
+                                                "assets/03_roll_safe.png",
+                                                "assets/08_point.png"
+                                            ],
+                       "thumb_index_ring_pinky":  [
+                                                      "assets/03_roll_safe.png",
+                                                      "assets/08_point.png"
+                                                  ],
+                       "thumb_middle":  [
+                                            "assets/01_not_angry.png",
+                                            "assets/10_monkey_face.png"
+                                        ],
+                       "thumb_middle_pinky":  [
+                                                  "assets/01_not_angry.png",
+                                                  "assets/10_monkey_face.png"
+                                              ],
+                       "thumb_middle_ring":  [
+                                                 "assets/01_not_angry.png",
+                                                 "assets/10_monkey_face.png"
+                                             ],
+                       "thumb_middle_ring_pinky":  [
+                                                       "assets/01_not_angry.png",
+                                                       "assets/10_monkey_face.png"
+                                                   ],
+                       "thumb_pinky":  [
+                                           "assets/06_drake.png",
+                                           "assets/05_success.png"
+                                       ],
+                       "thumb_ring":  [
+                                          "assets/06_drake.png",
+                                          "assets/05_success.png"
+                                      ],
+                       "thumb_ring_pinky":  [
+                                                "assets/06_drake.png",
+                                                "assets/05_success.png"
+                                            ]
+                   },
+    "notes":  "Curated image paths use the ten user-provided memes in assets/. The combinations are mapped to the closest available gesture/reaction meme."
+}
